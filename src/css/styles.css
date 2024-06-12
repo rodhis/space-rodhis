@@ -22,7 +22,33 @@
 
 .logoPc {
   width: 30vw;
-  margin: 0 1rem 0 1.25rem;
+  margin: 0 2rem 0 1rem;
+}
+
+#button {
+  padding: 1rem 2.1rem;
+}
+
+.footer {
+  background-color: #000;
+  height: 15vh;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+a:hover {
+  color: #b9b9b9;
+}
+
+.copyRodhis {
+  color: #73b4d5;
 }
 
 .container00.container01 {
@@ -36,6 +62,20 @@
 }
 .container00.container04 {
   background-image: url(../img/home/04.jpg);
+}
+
+.titlePadding {
+  padding-top: 12.5rem;
+}
+
+.shortTitle {
+  width: 36rem;
+  margin-bottom: -1.5rem;
+}
+
+.mediumTitle {
+  width: 41rem;
+  margin-bottom: -1.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

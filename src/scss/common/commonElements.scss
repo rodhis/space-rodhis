@@ -1,3 +1,5 @@
+@use "./variables.scss" as *;
+
 .header {
     font-size: 12px;
     font-weight: bold;
@@ -17,5 +19,31 @@
 
 .logoPc {
     width: 30vw;
-    margin: 0 1rem 0 1.25rem;
+    margin: 0 2rem 0 1rem;
+}
+
+#button {
+    padding: $padding-button;
+}
+
+.footer {
+    background-color: $black-bg;
+    height: 15vh;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: $anchor-color;
+    &:hover {
+        color: $link-hover;
+    }
+}
+
+.copyRodhis {
+    color: $copy-color;
 }
