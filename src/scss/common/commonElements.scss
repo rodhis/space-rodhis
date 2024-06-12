@@ -3,6 +3,13 @@
 .header {
     font-size: 12px;
     font-weight: bold;
+    #nav-falcon-item,
+    #nav-human-item {
+        text-decoration: underline;
+        &:hover {
+            color: $link-hover;
+        }
+    }
 }
 
 .container00 {
@@ -46,4 +53,23 @@ a {
 
 .copyRodhis {
     color: $copy-color;
+}
+
+//media queries
+
+@media (max-width: 405px) {
+    .logoPc {
+        width: 11.2rem;
+        margin-top: 1rem;
+    }
+    .footer {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 350px) {
+    .logoPc {
+        width: 9.3rem;
+        margin-top: 1rem;
+    }
 }

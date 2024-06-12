@@ -7,6 +7,14 @@
   font-size: 12px;
   font-weight: bold;
 }
+.header #nav-falcon-item,
+.header #nav-human-item {
+  text-decoration: underline;
+}
+.header #nav-falcon-item:hover,
+.header #nav-human-item:hover {
+  color: #b9b9b9;
+}
 
 .container00 {
   min-height: 100vh;
@@ -51,6 +59,21 @@ a:hover {
   color: #73b4d5;
 }
 
+@media (max-width: 405px) {
+  .logoPc {
+    width: 11.2rem;
+    margin-top: 1rem;
+  }
+  .footer {
+    font-size: 12px;
+  }
+}
+@media (max-width: 350px) {
+  .logoPc {
+    width: 9.3rem;
+    margin-top: 1rem;
+  }
+}
 .container00.container01 {
   background-image: url(../img/home/01.jpg);
 }
@@ -76,6 +99,24 @@ a:hover {
 .mediumTitle {
   width: 41rem;
   margin-bottom: -1.5rem;
+}
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 7.5rem;
+  }
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 3rem;
+  }
+}
+@media (max-width: 380px) {
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 2rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
