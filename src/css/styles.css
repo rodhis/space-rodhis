@@ -35,6 +35,7 @@
 
 #button {
   padding: 1rem 2.1rem;
+  border: 2px solid #fff;
 }
 
 .footer {
@@ -93,12 +94,12 @@ a:hover {
 
 .shortTitle {
   width: 36rem;
-  margin-bottom: -1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .mediumTitle {
   width: 41rem;
-  margin-bottom: -1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 @media (max-width: 750px) {
