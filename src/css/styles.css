@@ -4,11 +4,13 @@
 }
 
 .header {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
+  padding: 0.5rem;
 }
 .header #nav-falcon-item,
 .header #nav-human-item {
+  padding-right: 1.5rem;
   text-decoration: underline;
 }
 .header #nav-falcon-item:hover,

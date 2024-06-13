@@ -1,10 +1,12 @@
 @use "./variables.scss" as *;
 
 .header {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
+    padding: 0.5rem;
     #nav-falcon-item,
     #nav-human-item {
+        padding-right: 1.5rem;
         text-decoration: underline;
         &:hover {
             color: $link-hover;
