@@ -1,10 +1,10 @@
-
+@use "../common/variables.scss" as *;
 
 .container00 {
     &.container05 {
         background-image: url(../img/falcon9/01.jpg);
     }
-    &.container02 {
+    &.container06 {
         background-image: url(../img/falcon9/02.jpg);
     }
     &.carousel01 {
@@ -25,4 +25,53 @@
     &.container07 {
         background-image: url(../img/falcon9/08.jpg);
     }
+}
+
+.titleFalcon9 {
+    font-size: 5.6rem;
+    font-family: "Rubik", sans-serif;
+}
+
+.numbers {
+    background-color: $black-bg;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .titleNumber {
+        font-size: 5.6rem;
+    }
+    .subTitleNumber {
+        font-size: 1.25rem;
+    }
+}
+
+.containerFalcon9Description {
+    display: grid;
+    height: 90vh;
+    align-items: center;
+    justify-content: left;
+}
+
+.falcon9Description {
+    font-size: 1.3rem;
+    width: 40rem;
+    line-height: 3.1rem;
+}
+
+#overViewPosition {
+    width: 31rem;
+    margin-left: 13%;
+    padding-top: 15%;
+}
+
+.carouselSlide {
+    img {
+        height: 100vh;
+    }
+}
+
+.carouselText {
+    background-color: $black-bg;
+    font-size: 18px;
 }

@@ -2,10 +2,12 @@ $link-hover: #b9b9b9;
 $copy-color: #73b4d5;
 $table-item: #d8d8d8;
 $black-bg: #000;
-$anchor-color: #FFF;
+$anchor-color: #fff;
 $padding-default: 1.25rem 0;
 $padding-button: 1rem 2.1rem;
 
 * {
-    color: white;
+    color: #fff;
+    --bs-body-bg: transparent;
+    --bs-emphasis-color: #fff;
 }
