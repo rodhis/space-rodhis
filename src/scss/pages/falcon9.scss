@@ -75,3 +75,22 @@
     background-color: $black-bg;
     font-size: 18px;
 }
+
+.downloadDescription {
+    background-color: $black-bg;
+    height: 100vh;
+    padding-top: 30rem;
+    a {
+        text-decoration: none;
+        color: $link-normal;
+        border-bottom: 1px solid $link-normal;
+        &:hover {
+            color: $link-hover;
+            border-bottom: 1px solid $link-hover;
+        }
+    }
+
+    button {
+        border: 2px solid #fff;
+    }
+}
