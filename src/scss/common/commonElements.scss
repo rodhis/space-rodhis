@@ -14,6 +14,12 @@
     }
 }
 
+.logoPc {
+    width: 45vw;
+    height: 9vh;
+    margin: 0 2rem 0 1rem;
+}
+
 .container00 {
     min-height: 100vh;
     background-size: cover;
@@ -26,17 +32,30 @@
     width: 5.6rem;
 }
 
-.logoPc {
-    width: 30vw;
-    margin: 0 2rem 0 1rem;
-}
-
 #button {
     padding: $padding-button;
     border: 2px solid #fff;
 }
 
+.downloadDescription {
+    background-color: $black-bg;
+    height: 100vh;
+    padding-top: 30rem;
+    a {
+        text-decoration: none;
+        color: $link-normal;
+        border-bottom: 1px solid $link-normal;
+        &:hover {
+            color: $link-hover;
+            border-bottom: 1px solid $link-hover;
+        }
+    }
 
+    button {
+        margin: 1rem;
+        border: 2px solid #fff;
+    }
+}
 
 .footer {
     background-color: $black-bg;
@@ -69,6 +88,14 @@ a {
     }
     .footer {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 449px) {
+    .downloadDescription {
+        button {
+            margin: 10px 0;
+        }
     }
 }
 
