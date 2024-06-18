@@ -48,18 +48,19 @@
   height: 100vh;
   padding-top: 30rem;
 }
-.downloadDescription a {
+.downloadDescription button {
+  margin: 1rem;
+  border: 2px solid #fff;
+}
+
+.email {
   text-decoration: none;
   color: #5353fd;
   border-bottom: 1px solid #5353fd;
 }
-.downloadDescription a:hover {
+.email:hover {
   color: #b9b9b9;
   border-bottom: 1px solid #b9b9b9;
-}
-.downloadDescription button {
-  margin: 1rem;
-  border: 2px solid #fff;
 }
 
 .footer {
