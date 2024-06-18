@@ -334,4 +334,44 @@ a:hover {
   padding-top: 15%;
 }
 
+@media (max-width: 768px) {
+  .container01Content .titleHuman {
+    font-size: 5.6rem;
+  }
+  .container01Content img {
+    width: 9.3rem;
+  }
+  .containerRightContent,
+  .containerLeftContent {
+    margin-left: 15%;
+  }
+  .earthDescription .earthDescriptionText {
+    font-size: 18px;
+    width: auto;
+  }
+}
+@media (max-width: 610px) {
+  .container01Content .titleHuman {
+    font-size: 3.75rem;
+  }
+  .container01Content .subTitleHuman {
+    font-size: 1.5rem;
+  }
+  .containerRightContent,
+  .containerLeftContent {
+    margin-left: 5%;
+  }
+  .titleSection {
+    font-size: 3.1rem;
+  }
+}
+@media (max-width: 380px) {
+  .container01Content .titleHuman {
+    font-size: 2.6rem;
+  }
+  .container01Content img {
+    width: 6.25rem;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
