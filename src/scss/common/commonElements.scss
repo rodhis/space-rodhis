@@ -86,13 +86,12 @@ a {
 
 //media queries
 
-@media (max-width: 405px) {
-    .logoPc {
-        width: 11.2rem;
-        margin-top: 1rem;
+@media (max-width: 768px) {
+    a {
+        width: 90%;
     }
-    .footer {
-        font-size: 12px;
+    .logoPc {
+        width: 100%;
     }
 }
 
@@ -103,6 +102,18 @@ a {
         }
     }
 }
+
+@media (max-width: 405px) {
+    .logoPc {
+        width: 11.2rem;
+        margin-top: 1rem;
+    }
+    .footer {
+        font-size: 12px;
+    }
+}
+
+
 
 @media (max-width: 350px) {
     .logoPc {
