@@ -267,5 +267,71 @@ a:hover {
     font-size: 16px;
   }
 }
+.container00.container08 {
+  background-image: url(../img/humanFlight/01.jpg);
+}
+.container00.container09 {
+  background-image: url(../img/humanFlight/02.jpg);
+}
+.container00.container10 {
+  background-image: url(../img/humanFlight/03.jpg);
+}
+.container00.container11 {
+  background-image: url(../img/humanFlight/04.jpg);
+}
+.container00.container12 {
+  background-image: url(../img/humanFlight/05.jpg);
+}
+
+.container01Content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container01Content .titleHuman {
+  font-size: 7rem;
+}
+.container01Content .subTitleHuman {
+  margin-top: 1.25rem;
+  margin-bottom: 3.1rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.earthDescription {
+  background-color: #000;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.earthDescription .earthDescriptionText {
+  color: #d8d8d8;
+  font-weight: 400;
+  font-size: 1.25rem;
+  width: 50rem;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.titleSection {
+  font-size: 3.75rem;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
 
 /*# sourceMappingURL=styles.css.map */
