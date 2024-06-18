@@ -6,4 +6,10 @@ Ever heard of the Chapada Diamantina, on the state of Bahia - Brazil? It's a bea
 
 <hr />
 
-This project was made as a training subject for using Bootstrap 5 (CSS framework) and SASS (Syntactically Awesome Style Sheets, CSS pre-processor). It also uses AOS (Animate on Scroll) library to add effects to texts. It's also part of the Full Stack JavaScript Developer course by OneBitCode.
+### Instructions
+
+Since this is only a page styling project, you just need to browse it - no need for manuals!
+
+<hr />
+
+This project was made as a training subject for using Bootstrap 5 (CSS framework) and SASS (Syntactically Awesome Style Sheets, CSS pre-processor). It also uses AOS (Animate on Scroll) library to add effects to texts and Bootstrap-icons library for utility links icons. It's also part of the Full Stack JavaScript Developer course by OneBitCode.
