@@ -84,10 +84,6 @@ a svg {
 a:hover {
   color: #b9b9b9;
 }
-a.backTop {
-  position: absolute;
-  right: 1rem;
-}
 
 .copyRodhis {
   color: #73b4d5;
