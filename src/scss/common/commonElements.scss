@@ -15,7 +15,7 @@
 }
 
 .logoPc {
-    width: 45vw;
+    width: 50vw;
     height: 15vh;
     margin: 0 2rem 0 1rem;
 }
@@ -41,7 +41,6 @@
     background-color: $black-bg;
     height: 100vh;
     padding-top: 30rem;
-    
 
     button {
         margin: 1rem;
@@ -67,6 +66,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 a {
@@ -91,18 +91,54 @@ a {
 //media queries
 
 @media (max-width: 768px) {
-    a {
-        width: 90%;
-    }
-    .logoPc {
+    .topContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
         width: 100%;
+    }
+
+    .footer {
+        justify-content: space-evenly;
+        font-size: 12px;
+    }
+    a {
+        &.backTop {
+            position: relative;
+        }
     }
 }
 
-@media (max-width: 449px) {
+@media (max-width: 610px) {
+    .backTop {
+        position: absolute;
+        left: 0.8rem;
+        font-size: 10px;
+        svg {
+            width: 12px;
+        }
+    }
+}
+
+@media (max-width: 456px) {
+    .topContainer {
+        display: block;
+        padding: 0;
+        .logoPc {
+            width: 100%;
+        }
+    }
     .downloadDescription {
         button {
             margin: 10px 0;
+        }
+    }
+    .footer {
+        justify-content: space-evenly;
+        flex-direction: column;
+        .copyRodhis,
+        a {
+            flex: 3 1 50%;
         }
     }
 }
@@ -116,8 +152,6 @@ a {
         font-size: 12px;
     }
 }
-
-
 
 @media (max-width: 350px) {
     .logoPc {
