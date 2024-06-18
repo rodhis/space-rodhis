@@ -84,6 +84,11 @@ a {
     color: $copy-color;
 }
 
+.backTop {
+    position: absolute;
+    right: 2rem;
+}
+
 //media queries
 
 @media (max-width: 768px) {
@@ -100,7 +105,8 @@ a {
     }
     a {
         &.backTop {
-            position: relative;
+            position: sticky;
+            padding-left: 2rem;
         }
     }
 }
